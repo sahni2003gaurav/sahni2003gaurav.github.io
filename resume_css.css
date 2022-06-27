@@ -13,6 +13,7 @@ body {
     float: left;
     width: 20%;
     height: fit-content;
+    border-radius: 15px;
 }
 
 .name h2 {
@@ -43,16 +44,6 @@ body {
     padding: 1px 0px 1px 0px;
     margin: 0px 55px;
     -webkit-border-radius: 15px / 15px;
-}
-
-.header {
-    margin-left: 15px;
-    padding: 20px 40px 20px 40px;
-    float: left;
-    width: 73%;
-    height: auto;
-    background-color: white;
-    border-radius: 15px;
 }
 
 
@@ -131,7 +122,8 @@ body {
 }
 
 .header {
-    padding: 20px 40px 20px 40px;
+    padding: 20px 30px 20px 30px;
+    margin-left: 20px;
     float: left;
     width: 74%;
     height: auto;
@@ -206,4 +198,5 @@ body {
 .languages_known img {
     height: 2cm;
     width: 2cm;
+    padding-bottom: 40px;
 }
