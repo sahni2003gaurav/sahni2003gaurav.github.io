@@ -1,148 +1,235 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
 
 <head>
-    <title>MY RESUME</title>
-
-
-    <link rel="stylesheet" type="text/css" href="resume_css.css">
+    <title>Bootstrap demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="bootstrap_Css.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="sidebar">
-        <div class="container">
-            <div class="name">
-                <h2>Gaurav Sahni</h2>
-            </div>
+    <div class="container-fluid" style="padding: 0; background-color: #5cdb95; font-family:system-ui ">
+        <div class="row" style="width:100%;">
+            <nav class="navbar navbar-expand-lg my-0 " style="background-color: #379683;">
+                <a class="navbar-brand" style="color: #05386B;">ONLINE RESUME PAGE</a>
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#nav">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
 
-            <div class="desig">
-                <h1>Web developer</h1>
-            </div>
+                <div class="collapse navbar-collapse ml-lg-4" id="nav">
+                    <ul class="navbar-nav ms-auto navbar-right">
+                        <li class="nav-item"><a class="nav-link" style="color: #05386B;" href="#">HOME</a></li>
 
-            <div class="media">
-                <ul>
-                    <li><a href="#" class="fa fa-facebook"></a></li>
-                    <li><a href="#" class="fa fa-twitter"></a></li>
-                    <li><a href="https://www.instagram.com/gauravsahni_10/" class="fa fa-instagram"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
-                    <li><a href="#" class="fa fa-github"></a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false" href="#">PROJECTS</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown"
+                                style="background-color:#5cdb95; color: #05386B;">
+                                <a href="#" class="dropdown-item" style="color: #05386B;">MACHINE LEARNING</a>
+                                <a href="#" class="dropdown-item" style="color: #05386B;">DATA SCIENCE</a>
+                                <a href="#" class="dropdown-item" style="color: #05386B;">BLOCKCHAIN</a>
+                            </div>
+
+                        </li>
+
+                        <li class="nav-item"><a style="color: #05386B;" class="nav-link" href="#">ABOUT</a></li>
+                        <li class="nav-item"><a style="color: #05386B;" class="nav-link" href="#">SKILLS</a></li>
+                    </ul>
+                    <div class="form-inline my-sm-3 navbar-right me-lg-5 pe-lg-5">
+                        <input class="form-control ms-lg-5 " placeholder="Just For Fun" type="text">
+                        <button class="btn btn-dark" style="background-color: #05386B;" type="submit">Search</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="row" style="background-color:#5cdb95; color: #05386B; width: 100%;">
+            <div class="col-lg-8 " style="font-family: system-ui;">
+                <h1 class="display-4 text-center " style="font-size: 80px;">ABOUT ME</h1>
+                <p class="lead">HELLO , GAURAV SAHNI !</p>
+
+                <p class="lead">I am a web developer and problem solver with interest in fields of blockchain ,
+                    machine learning and
+                    data Science . I have worked in
+                    projects based on these technologies . This Web page resume is also designed by me using
+                    Bootstrap . I
+                    am skilled in both Front and Back
+                    End . Moreover , I am very enthusiastic about learning new languages and improve my capabilites
+                    in this
+                    field of work.</p>
+
+
+                <h3 class="text-center">SOCIAL MEDIA CONTACTS</h3>
+
+                <ul class="nav justify-content-center pt-0 mt-0">
+                    <li class="nav-item"><a href="#" class="fa fa-facebook"></a></li>
+                    <li class="nav-item"><a href="#" class="fa fa-twitter"></a></li>
+                    <li class="nav-item"><a href="https://www.instagram.com/gauravsahni_10/"
+                            class="fa fa-instagram"></a></li>
+                    <li class="nav-item"><a href="#" class="fa fa-linkedin"></a></li>
+                    <li class="nav-item"><a href="#" class="fa fa-github"></a></li>
                 </ul>
             </div>
 
-            <div class="info">
-                <h1>PERSONAL INFORMATION</h1>
-                <h2>LOCATION: Punjab,India</h2>
-                <h2>PHONE: +91 700 930 0979</h2>
-                <h2>BIRTHDAY: 08th JULY 2003</h2>
-                <h2>EMAIL: sahni2003gaurav@gmail.com</h2>
+
+            <div class="col-sm-4">
+                <img src="profile.jpg" class="img-responsive rounded mx-auto d-block" height="400px" width="380px">
+            </div>
+        </div>
+
+        <h1 class="text-center " style="color: #05386B;">LANGUAGES KNOWN</h1>
+        <div class="row justify-content-center ms-0 me-0">
+            <ul class="nav justify-content-center ">
+
+                <li class="nav-item"><img class="img-thumbnail img-fluid" src="solidity-plain.svg "
+                        style="height: 70px;">
+                    <p class="brand">SOLIDITY</p>
+                </li>
+                <li class="nav-item"><img class="img-thumbnail img-fluid" src="sqlite-original-wordmark.svg"
+                        style="height: 70px;">
+                    <p class="brand">SQL</p>
+                </li>
+                <li class="nav-item"><img class="img-thumbnail img-fluid" src="html5-original-wordmark.svg"
+                        style="height: 70px;">
+                    <p class="brand">HTML</p>
+                </li>
+                <li class="nav-item"><img class="img-thumbnail img-fluid" src="css3-original.svg" style="height: 70px;">
+                    <p class="brand">CSS</p>
+                </li>
+                <li class="nav-item"><img class="img-thumbnail img-fluid" src="css3-original.svg" style="height: 70px;">
+                    <p class="brand">Bootstrap</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="row justify-content-center ms-0 me-0">
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><img class="img-thumbnail img-fluid" src="javascript-original.svg"
+                        style="height: 70px;">
+                    <p class="brand">JS</p>
+                </li>
+                <li class="nav-item"><img class="img-thumbnail img-fluid" src="c-line.svg" style="height: 70px;">
+                    <p class="brand">C</p>
+                </li>
+                <li class="nav-item"><img class="img-thumbnail img-fluid" src="python-original-wordmark.svg"
+                        style="height: 70px;">
+                    <p class="brand">PYTHON</p>
+                </li>
+                <li class="nav-item"><img class="img-thumbnail img-fluid" src="java-original-wordmark.svg"
+                        style="height: 70px;">
+                    <p class="brand">JAVA</p>
+                </li>
+                <li class="nav-item"><img class="img-thumbnail img-fluid" src="csharp-original.svg"
+                        style="height: 70px;">
+                    <p class="brand">C#</p>
+                </li>
+
+            </ul>
+
+
+        </div>
+
+        <div class="row align-items-center" style="width: 100%;">
+            <div class="col-sm-6 " style="background-color: #5cdb95;">
+                <img src="pexels-emily-ranquist-1205651.jpg" class="img-responsive rounded mx-auto d-block"
+                    height="420px" width="420px">
             </div>
 
-            <div class="languages">
-                <h1>OTHER PROFICIENSIES</h1>
-                <ul>
-                    <li>BlockChain Development</li>
-                    <li>Data Science</li>
-                    <li>Machine Learning</li>
-                    <li>Software Development</li>
+
+            <div class="col-sm-6 pb-sm-5 " style="background-color: #5cdb95;">
+                <h1 class="text-center">EDUCATION</h1>
+                <ul class="list-group" style="background-color: #5cdb95;">
+                    <li class="list-group-item" style="background-color: #5cdb95;">
+                        <p class="lead" style="color: #05386B;"><button class="btn btn-primary disable"
+                                disabled>2016-2018</button>
+                            <br>MATRICULATION<br>SHIVALIK
+                            PUBLIC SCHOOL
+                        </p>
+                    </li>
+                    <li class="list-group-item" style="background-color: #5cdb95;">
+                        <p class="lead" style="color: #05386B;"><button class="btn btn-primary "
+                                disabled>2018-2020</button><br>INTERMEDIATE<br>SHIVALIK
+                            PUBLIC
+                            SCHOOL</p>
+                    </li>
+                    <li class="list-group-item" style="background-color: #5cdb95;">
+                        <p class="lead" style="color: #05386B;"><button class="btn btn-primary"
+                                disabled>2020-2024</button><br>BACHELOR's
+                            DEGREE<br>CHANDIGARH UNIVERSITY</p>
+                    </li>
                 </ul>
-
             </div>
+        </div>
 
-            <div class="interests">
 
-                <h1>INTERESTS</h1>
-                <ul>
-                    <li>Football</li>
-                    <li>Sketching</li>
-                    <li>Travelling</li>
-                    <li>Finance</li>
+        <div class="row align-items-center" style="width:100%;">
+            <div class="col-sm-6 ms-4">
+                <h1 class="text-center">PROJECTS & TRAININGS</h1>
+                <ul class="list-group">
+                    <li class="list-group-item" style="background-color: transparent;">
+                        <p class="lead"><button class="btn btn-primary" disabled>September-November
+                                2020</button><br>Prediction Of Marks
+                            Of Students Using ML<br>
+                            <br>Designed a program that accurately predicts marks of students
+                            based on their previous academic performances
+                        </p>
+                    </li>
+                    <li class="list-group-item" style="background-color: transparent;">
+
+                        <p class="lead"><button class="btn btn-primary" disabled>December 2021 - March
+                                2022</button><br>Technical
+                            Analysis of Large Cap Companies Using Python<br>
+                            <br>Predicted the marks of students based on their previous academic performances
+                        </p>
+
+
+                    </li>
+                    <li class="list-group-item" style="background-color: transparent;">
+
+                        <p class="lead"><button class="btn btn-primary" disabled>March-July
+                                2022</button><br>Certification
+                            in Machine
+                            Learning<br>
+                            <br>Standford University
+                        </p>
+                    </li>
                 </ul>
             </div>
-
+            <div class="col-sm-5">
+                <img src="pexels-pixabay-301920.jpg" class="img-responsive rounded mx-auto d-block" height="420px"
+                    width="420px">
+            </div>
         </div>
     </div>
 
-    <div class="header">
-        <div class="container">
-            <div class="Intro">
-                <h1>HELLO , GAURAV SAHNI !</h1>
-            </div>
-
-            <div class="sum">
-                <p>I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print
-                    media. I enjoy turning complex problems into simple, beautiful and intuitive designs. My job is to
-                    build your website so that it is functional and user-friendly but at the same time attractive.
-                    Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use.
-                    My aim is to bring across your message and identity in the most creative way. I created web design
-                    for many famous brand companies.
-                </p>
-            </div>
-
-            <div class="education">
-                <h3>EDUCATION</h3>
-                <ul>
-                    <li>
-                        <span>2016-2018</span>
-                        <h6>MATRICULATION</h6>
-                        <p>SHIVALIK PUBLIC SCHOOL</p>
-                    </li>
-                    <li>
-                        <span>2018-2020</span>
-                        <h6>INTERMEDIATE</h6>
-                        <p>SHIVALIK PUBLIC SCHOOL</p>
-                    </li>
-                    <li>
-                        <span>2020-2024</span>
-                        <h6>BACHELOR's DEGREE</h6>
-                        <p>CHANDIGARH UNIVERSITY</p>
-                    </li>
-                </ul>
-            </div>
-
-
-            <div class="Projects">
-                <h3>PROJECTS & TRAININGS</h3>
-                <ul>
-                    <li>
-                        <span>September-November 2020</span>
-                        <p>Prediction Of Marks Of Students Using ML</p>
-                        <h6>Designed a program that accurately predicts marks of students
-                            based on their previous academic performances</h6>
-                    </li>
-                    <li>
-                        <span>December 2021 - March 2022</span>
-                        <p>Technical Analysis of Large Cap Companies Using Python</p>
-                        <h6>Predicted the marks of students based on their previous academic performances</h6>
-
-                    </li>
-                    <li>
-                        <span>March-July 2022</span>
-                        <p>Certification in Machine Learning</p>
-                        <h6>Standford University</h6>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="languages_known">
-                <h3>PROGRAMMING LANGUAGES KNOWN</h3>
-                <ul>
-
-                    <li><img src="icons/solidity-plain.svg"></li>
-                    <li><img src="icons/sqlite-original-wordmark.svg"></li>
-                    <li><img src="icons/html5-original-wordmark.svg"></li>
-                    <li><img src="icons/css3-original.svg"></li>
-                    <li><img src="icons/javascript-original.svg"></li>
-                    <li><img src="icons/c-line.svg"></li>
-                    <li><img src="icons/python-original-wordmark.svg"></li>
-                    <li><img src="icons/java-original-wordmark.svg"></li>
-                    <li><img src="icons/csharp-original.svg"></li>
-
-                </ul>
-            </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="alert alert-danger" role="alert">
+            A simple primary alert—check it out!
         </div>
     </div>
+    </div>
+
+    <script src="js/bootstrap.css"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
