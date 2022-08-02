@@ -7,6 +7,14 @@ li.nav-item {
     color: #05386B;
 }
 
+li.nav-item.p-4 {
+    padding-inline: 3rem;
+    padding-top: 1rem;
+}
+
+li.nav-item.p-5 {
+    padding-inline: 3rem;
+}
 a {
     color: #05386B;
 }
