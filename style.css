@@ -121,3 +121,10 @@ h1 {
 p-0 {
     padding: 0;
 }
+
+.mx-auto {
+    margin-right:auto !important;
+    margin-left:auto !important;
+    display:block;
+    align-items:center;
+
